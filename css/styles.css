@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 565.5%;
+    color: #66BFBF;
+    line-height: 4;
+    /*90px/16 = 565.5 */
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+
+h3{
+    color: #11999E;
+}
+
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img,p,h1{
+    user-select: none;
+    object-fit: cover;
+}
+
+
+.top-container{
+    background-color: #FFFBEB;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+.middle-container{
+    background-color: #F8EAD8;
+}
+
+
+.top-cloud{
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile{
+    padding-top: 25px;
+}
+.profiles-picture{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 360px;
+    object-fit:cover;
+}
+
+
+a{
+    color: #11999E;
+}
+
+.coding{
+    width: 25%;
+    background-color: #66BFBF;
+    margin: 0 auto;
+    border-radius: 36px;
+    padding: 40px;
+    object-fit: cover;
+    float: left;
+        margin-right: 30px;
+}
+
+.teamplayer{
+    width: 25%;
+    background-color: #66BFBF;
+    margin: 0 auto;
+    border-radius: 36px;
+    padding: 40px;
+    object-fit: cover;
+    float: right ;
+    margin-right: 30px;
+    
+}
+
+.mountain{
+    margin-bottom: -4px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.skills{
+    padding-bottom: 30px;
+}
+
+.bottom-container{
+    padding-top: 40px;
+    
+    background-color: #F9F5E7;
+}
+
+.footer-link{
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.copy-right{
+    padding-top: 40px;
+    margin-bottom: 0px;
+    color: #A7727D;
+}
+
+
+p{
+    padding-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #11999E;
+    color: #EAF6F6;
+    border-style: none;
+    border-radius: 8px;
+    border-color: none
+    ;
+}
+
+hr{
+    width: 5%;
+    border-width: 10px;
+    border-style: dotted none none;
+    border-color: gray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-me{
+    padding-bottom: 100px;
+}
